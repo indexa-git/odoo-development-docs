@@ -178,4 +178,41 @@ Ejecutar el comando  ~sudo apt install postgresql-client
 
 -- PULL REQUEST
 
--Indica qu esta en progreso, esperando a que se evalue para ver si se le puede hacer un merge ya, la descripcion de estos deben ser especificas sobre lo que se intenta lograr
+-Indica que cambios estan revision o en progreso, esperando a que se evalue para ver si se le puede hacer un merge ya, la descripcion de estos deben ser especificas sobre lo que se intenta lograr
+
+Despues de haber realizado un
+
+~git push
+
+a los commits que teniamos, la siguiente vez que entraremos en github y accedamos al repositorio, nos aparecera la opcion de hacer un pull requests, en este indicaremps un titulo lo mas descriptivo posible y una descripcion detallada de los cambios que realizo
+
+Si el pull request es aprobado para hacer un merge, lo siguiente que tienen que hacer los miembros del equipo es realizar un 
+
+~git pull
+
+esto se encargara de traer los cambios a la rama original a nuestros repositorios
+
+# Black
+
+Herramienta utilizada para la homogeniedad del codigo
+
+~pip install black
+
+Una vez instalado  tenemos que copiar la ruta en la que se instalo el programa, para eso ejecutar el siguiente comando que se encargara de mostrar la ruta:
+
+~which black
+
+Una vez teniendo la ruta lo siguiente que haremos es:
+    - Ir a settings
+    - Ir a tools
+    - hacer click en el "+"
+    - Agregar el nombre que quiera para la herramienta
+    - En program pondremos la ruta que copiamos anteriormente
+    - En arguments: ~$FilePath$
+    - En working directory: ~$ProjectFileDir$
+    - Luego de esto, en la misma ventana de settings, esta vez nos dirigiremos a Keymap
+    - Seleccionaremos externals tools > externals tools > black(click derecho)
+    - Seleccionaremos la opcion de agregar una nueva combinacion de teclas, ej: ctrl + ,
+    - Aplicar cambios y guardar
+
+
