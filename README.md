@@ -5,6 +5,7 @@ Este repositorio consiste en una serie de pasos y informaciones claves para desa
 -Se creo un repositorio para los docs
 -Modificacion del readme especificando el proposito del repositorio
 -Instalacion de las dependencias previas para la instalacion de odoo:
+
 	~sudo apt-get update
 	~sudo apt-get upgrade
 	~sudo apt-get install software-properties-common
