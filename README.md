@@ -169,7 +169,6 @@ Hay mucha documentacion en odoo, basta con buscar odoo docs en google, seleccion
 6. ssh and gpc key, 
 7. Crear una nueva ssh
 8. Pegar el texto copiado anteriormente
-
 9. Buscar en google, odoo docs
 10. Seleccionar la version deseada
 11. Developers
@@ -203,6 +202,7 @@ Una vez instalado  tenemos que copiar la ruta en la que se instalo el programa, 
 	~which black
 
 Una vez teniendo la ruta lo siguiente que haremos es:
+
     1. Ir a settings
 
     2. Ir a tools
