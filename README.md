@@ -31,7 +31,7 @@ En caso de que despues de este comando el error persista, debe de ejecutar
 La creacion del virtual environment de tal manera que se creen ejecutables de python unicos para cada version con sus dependencias necesarias:
 
  	~pip install virtualenv
-	~mkdir ~/.virutalenvs
+	~mkdir ~/.virtualenvs
 	~virtualenv --python=`which python<version>` ~/.virtualenvs/<file_name>
 
 Creacion de entorno de trabajo donde se instalara odoo:
@@ -216,3 +216,51 @@ Una vez teniendo la ruta lo siguiente que haremos es:
     - Aplicar cambios y guardar
 
 
+# Odoo Companias
+
+Se puede crear mas de una compania por base de datos y esto no generara ningun problema, para poder hacer esto, debe acceder a settings , seleccionar usuarios y companias, editar su usuario o el que le desee agregar mas de una compania y en la opcion de allowed companies, se agregara o eliminaran las companias que deseen para ese usuario
+
+#seguridad
+
+Dentro del modulo que se esta trabajando, debemos crear una carpeta llamada security y en esta un archivo llamado "ir.model.access.csv", en este archivo se configurara los accesos para el programa
+
+Al ejecutar el programa este nos indicara unos warnings que dice que mas debemos de poner en  uestro archivo, ej: 
+
+~access_to_do_list_tag,access_to_do_list_tag,model_to_do_list_tag,base.group_user,1,1,1,1
+
+luego de esto agregarla ruta del archivo en nuestro manifest.py en el diccionario data
+
+#Carpeta Demo
+
+En esta carpteta se crea una estructura de data que nunca se subira a produccion, puesto que su proposito es para testing del desarrollador
+
+ej:
+
+~<odoo>
+~    <data>
+~          <record id="object0" model="my_module.my_module">
+~            <field name="name">Object 0</field>
+~            <field name="value">0</field>
+~          </record>
+~
+~          <record id="object1" model="my_module.my_module">
+~            <field name="name">Object 1</field>
+~            <field name="value">10</field>
+~          </record>
+~
+~          <record id="object2" model="my_module.my_module">
+~            <field name="name">Object 2</field>
+~            <field name="value">20</field>
+~          </record>
+~
+~          <record id="object3" model="my_module.my_module">
+~            <field name="name">Object 3</field>
+~            <field name="value">30</field>
+~          </record>
+~
+~          <record id="object4" model="my_module.my_module">
+~            <field name="name">Object 4</field>
+~            <field name="value">40</field>
+~          </record>
+~    </data>
+~</odoo>
