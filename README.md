@@ -230,39 +230,41 @@ Al ejecutar el programa este nos indicara unos warnings que dice que mas debemos
 
 luego de esto agregarla ruta del archivo en nuestro manifest.py en el diccionario data
 
-#Carpeta Demo
+# Carpeta Demo
 
 En esta carpteta se crea una estructura de data que nunca se subira a produccion, puesto que su proposito es para testing del desarrollador
 
 ej:
 
-<odoo>
-    <data>
-<!--
-          <record id="object0" model="my_module.my_module">
-            <field name="name">Object 0</field>
-            <field name="value">0</field>
-          </record>
+<myxml>
+	<odoo>
+		<data>
+	<!--
+			<record id="object0" model="my_module.my_module">
+				<field name="name">Object 0</field>
+				<field name="value">0</field>
+			</record>
 
-          <record id="object1" model="my_module.my_module">
-            <field name="name">Object 1</field>
-            <field name="value">10</field>
-          </record>
+			<record id="object1" model="my_module.my_module">
+				<field name="name">Object 1</field>
+				<field name="value">10</field>
+			</record>
 
-          <record id="object2" model="my_module.my_module">
-            <field name="name">Object 2</field>
-            <field name="value">20</field>
-          </record>
+			<record id="object2" model="my_module.my_module">
+				<field name="name">Object 2</field>
+				<field name="value">20</field>
+			</record>
 
-          <record id="object3" model="my_module.my_module">
-            <field name="name">Object 3</field>
-            <field name="value">30</field>
-          </record>
+			<record id="object3" model="my_module.my_module">
+				<field name="name">Object 3</field>
+				<field name="value">30</field>
+			</record>
 
-          <record id="object4" model="my_module.my_module">
-            <field name="name">Object 4</field>
-            <field name="value">40</field>
-          </record>
--->
-    </data>
-</odoo>
+			<record id="object4" model="my_module.my_module">
+				<field name="name">Object 4</field>
+				<field name="value">40</field>
+			</record>
+	-->
+		</data>
+	</odoo>
+</myxml>
