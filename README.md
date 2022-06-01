@@ -46,7 +46,7 @@ Creacion de entorno de trabajo donde se instalara odoo:
 Abrir pycharm(en caso de no tenerlo, proceder a instalarlo)
 
 Dar click en la pestana files y seleccionar Settings
-En la ventana abierta seleccionar terminal para agregar el path del interpretador, el cual es el absolute path de donde se encuentra este en el shell path (comando para encontrar el absolute path "which 'nombre del archivo' ")
+En la ventana abierta seleccionar terminal para agregar el path del interpretador, el cual es el absolute path de donde se encuentra este en el shell path (comando para encontrar el absolute path `which 'file_name' `)
 
 Proceder a la terminal de Pycharm para activar el virtualenv con el comando:
 
@@ -204,16 +204,26 @@ Una vez instalado  tenemos que copiar la ruta en la que se instalo el programa, 
 
 Una vez teniendo la ruta lo siguiente que haremos es:
     1. Ir a settings
+
     2. Ir a tools
-    3. hacer click en el "+"
-    4. Agregar el nombre que quiera para la herramienta
-    5. En program pondremos la ruta que copiamos anteriormente
-    6. En arguments: ~$FilePath$
-    7. En working directory: ~$ProjectFileDir$
-    8. Luego de esto, en la misma ventana de settings, esta vez nos dirigiremos a Keymap
-    9. Seleccionaremos externals tools > externals tools > black(click derecho)
-    10. Seleccionaremos la opcion de agregar una nueva combinacion de teclas, ej: ctrl + ,
-    11. Aplicar cambios y guardar
+    
+	3. hacer click en el "+"
+    
+	4. Agregar el nombre que quiera para la herramienta
+    
+	5. En program pondremos la ruta que copiamos anteriormente
+    
+	6. En arguments: ~$FilePath$
+    
+	7. En working directory: ~$ProjectFileDir$
+    
+	8. Luego de esto, en la misma ventana de settings, esta vez nos dirigiremos a Keymap
+    
+	9. Seleccionaremos externals tools > externals tools > black(click derecho)
+    
+	10. Seleccionaremos la opcion de agregar una nueva combinacion de teclas, ej: ctrl + ,
+    
+	11. Aplicar cambios y guardar
 
 
 # Odoo Companias
