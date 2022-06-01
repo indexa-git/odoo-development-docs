@@ -26,7 +26,7 @@ En caso de que despues de este comando el error persista, debe de ejecutar
     	libtiff5-dev libjpeg8-dev libopenjp2-7-dev zlib1g-dev libfreetype6-dev \
     	liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev libxcb1-dev libpq-dev
 
-# Virtual environment
+## Virtual environment
 
 La creacion del virtual environment de tal manera que se creen ejecutables de python unicos para cada version con sus dependencias necesarias:
 
@@ -64,7 +64,7 @@ En el caso de presentar un error con alguna dependencia, instalar manualmente co
 
 En la ventana que se muestra deberia de aparecerle una lista de todas las librerias instaladas, en este caso para agregar una nueva, seleccionar el + y buscarla por el nombre
 
-# POSTGRESQL
+## POSTGRESQL
 
 -- Instalacion
 
@@ -134,7 +134,7 @@ Abrir el archivo en pycharm
 
 * limit_memory_soft: la cantidad de memoria cache que se le da al aplicativo
 
-# Configuracion
+## Configuracion
 
 1. Copiar el absolute path de nuestro archivo de configuracion
 
@@ -148,7 +148,7 @@ Para mayor visibilidad de las carpetas de linux y las carpetas padres es recomen
 
 Hay mucha documentacion en odoo, basta con buscar odoo docs en google, seleccionar la version que desea, buscar el guidelines o la seccion en la que tiene duda o quiere saber mas
 
-# Git
+## Git
 
 1. Configurar github:
 
@@ -175,7 +175,7 @@ Hay mucha documentacion en odoo, basta con buscar odoo docs en google, seleccion
 12. Guidelines
 13. Git. En esta seccion se le mostrara como se seben hacer los commits
 
-# PULL REQUEST
+## PULL REQUEST
 
 Indica que cambios estan revision o en progreso, esperando a que se evalue para ver si se le puede hacer un merge ya, la descripcion de estos deben ser especificas sobre lo que se intenta lograr
 
@@ -191,7 +191,7 @@ Si el pull request es aprobado para hacer un merge, lo siguiente que tienen que 
 
 esto se encargara de traer los cambios a la rama original a nuestros repositorios
 
-# Black
+## Black
 
 Herramienta utilizada para la homogeniedad del codigo
 
@@ -226,11 +226,11 @@ Una vez teniendo la ruta lo siguiente que haremos es:
 	11. Aplicar cambios y guardar
 
 
-# Odoo Companias
+## Odoo Companias
 
 Se puede crear mas de una compania por base de datos y esto no generara ningun problema, para poder hacer esto, debe acceder a settings, seleccionar usuarios y companias, editar su usuario o el que le desee agregar mas de una compania y en la opcion de allowed companies, se agregara o eliminaran las companias que deseen para ese usuario
 
-# Seguridad
+## Seguridad
 
 Dentro del modulo que se esta trabajando, debemos crear una carpeta llamada security y en esta un archivo llamado "ir.model.access.csv", en este archivo se configurara los accesos para el programa
 
@@ -240,7 +240,7 @@ Al ejecutar el programa este nos indicara unos warnings que dice que mas debemos
 
 luego de esto agregarla ruta del archivo en nuestro manifest.py en el diccionario data
 
-# Carpeta Demo
+## Carpeta Demo
 
 En esta carpteta se crea una estructura de data que nunca se subira a produccion, puesto que su proposito es para testing del desarrollador
 
