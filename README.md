@@ -182,13 +182,13 @@ Indica que cambios estan revision o en progreso, esperando a que se evalue para 
 
 Despues de haber realizado un:
 
-~git push
+	~git push
 
 a los commits que teniamos, la siguiente vez que entraremos en github y accedamos al repositorio, nos aparecera la opcion de hacer un pull requests, en este indicaremps un titulo lo mas descriptivo posible y una descripcion detallada de los cambios que realizo
 
 Si el pull request es aprobado para hacer un merge, lo siguiente que tienen que hacer los miembros del equipo es realizar un:
 
-~git pull
+	~git pull
 
 esto se encargara de traer los cambios a la rama original a nuestros repositorios
 
