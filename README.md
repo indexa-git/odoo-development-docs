@@ -176,9 +176,9 @@ Ejecutar el comando  ~sudo apt install postgresql-client
 -Guidelines
 -Git. en esta seccion se le mostrara como se seben hacer los commits
 
--- PULL REQUEST
+# PULL REQUEST
 
--Indica que cambios estan revision o en progreso, esperando a que se evalue para ver si se le puede hacer un merge ya, la descripcion de estos deben ser especificas sobre lo que se intenta lograr
+Indica que cambios estan revision o en progreso, esperando a que se evalue para ver si se le puede hacer un merge ya, la descripcion de estos deben ser especificas sobre lo que se intenta lograr
 
 Despues de haber realizado un
 
@@ -236,7 +236,7 @@ En esta carpteta se crea una estructura de data que nunca se subira a produccion
 
 ej:
 
-<one>
+```
 	<odoo>
 		<data>
 	<!--
@@ -267,4 +267,4 @@ ej:
 	-->
 		</data>
 	</odoo>
-</one>
+```
