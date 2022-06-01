@@ -220,7 +220,7 @@ Una vez teniendo la ruta lo siguiente que haremos es:
 
 Se puede crear mas de una compania por base de datos y esto no generara ningun problema, para poder hacer esto, debe acceder a settings , seleccionar usuarios y companias, editar su usuario o el que le desee agregar mas de una compania y en la opcion de allowed companies, se agregara o eliminaran las companias que deseen para ese usuario
 
-#seguridad
+# Seguridad
 
 Dentro del modulo que se esta trabajando, debemos crear una carpeta llamada security y en esta un archivo llamado "ir.model.access.csv", en este archivo se configurara los accesos para el programa
 
@@ -236,7 +236,7 @@ En esta carpteta se crea una estructura de data que nunca se subira a produccion
 
 ej:
 
-<myxml>
+<one>
 	<odoo>
 		<data>
 	<!--
@@ -267,4 +267,4 @@ ej:
 	-->
 		</data>
 	</odoo>
-</myxml>
+</one>
